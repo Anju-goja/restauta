@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='foodieApp'><!-- ng-app is used to show that we are using angular -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>foodie</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"><!-- bootstrap added -->
+    <link rel="stylesheet" type="text/css" href="font-awesome.css"><!-- font icons library added -->
+    <link rel="stylesheet" href="main.css"><!-- css added -->
+    <script src="js/angular.min.js"></script>   <!-- angular added -->
+    <script src="https://code.angularjs.org/1.6.5/angular-route.js"></script>
+    <style>
+    /*css is applied on input boxes*/
+        input.ng-invalid.ng-dirty {
+            border: 1px solid red;
+        }
+         
+    </style>
+</head><!-- head tag terminated -->
+
+<body id="app">
+    
+    <div ng-view></div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
